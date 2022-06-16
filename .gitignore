@@ -1,0 +1,11 @@
+*.app
+*.g.xlf
+.alcache/
+/*.code-workspace
+/permissionsAnalyzer.json
+/.vscode/rad.json
+/.alcache
+/.altemplates
+/images/thumbs.db
+
+##Ignore 3rd party ext.
