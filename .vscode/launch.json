@@ -2,19 +2,6 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Sandbox-ca",
-            "request": "launch",
-            "type": "al",
-            "environmentType": "Sandbox",
-            "environmentName": "bld-dev-ca",
-            "startupObjectId": 22,
-            "startupObjectType": "Page",
-            "breakOnError": true,
-            "launchBrowser": true,
-            "enableLongRunningSqlStatements": true,
-            "enableSqlInformationDebugger": true
-        },
-        {
             "name": "Sandbox-us",
             "request": "launch",
             "type": "al",
@@ -27,6 +14,19 @@
             "enableLongRunningSqlStatements": true,
             "enableSqlInformationDebugger": true
         },        
+        {
+            "name": "Sandbox-ca",
+            "request": "launch",
+            "type": "al",
+            "environmentType": "Sandbox",
+            "environmentName": "bld-dev-ca",
+            "startupObjectId": 22,
+            "startupObjectType": "Page",
+            "breakOnError": true,
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true
+        },
         {
             "name": "Sandbox-gb",
             "request": "launch",
