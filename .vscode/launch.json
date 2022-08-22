@@ -13,7 +13,7 @@
             "launchBrowser": true,
             "enableLongRunningSqlStatements": true,
             "enableSqlInformationDebugger": true
-        },        
+        },
         {
             "name": "Sandbox-ca",
             "request": "launch",
@@ -39,7 +39,7 @@
             "launchBrowser": true,
             "enableLongRunningSqlStatements": true,
             "enableSqlInformationDebugger": true
-        },       
+        },
         {
             "name": "Production-w1",
             "request": "launch",
@@ -52,6 +52,22 @@
             "launchBrowser": true,
             "enableLongRunningSqlStatements": true,
             "enableSqlInformationDebugger": true,
+        },
+        {
+            "name": "Beck-Server Dev Env",
+            "request": "launch",
+            "type": "al",
+            "server": "https://ull.beck.local/",
+            "serverInstance": "bcserverdev",
+            "port": 443,
+            "authentication": "UserPassword",
+            "startupObjectId": 21,
+            "startupObjectType": "Page",
+            "breakOnError": true,
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true,
+            "tenant": "default"
         }
     ]
 }
