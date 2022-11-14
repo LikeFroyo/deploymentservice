@@ -1,11 +1,7 @@
 {
     "al.enableCodeAnalysis": true,
-    "al.codeAnalyzers": [
-        "${CodeCop}",
-        "${UICop}",
-        "${PerTenantExtensionCop}",
-        "${AppSourceCop}",
-        "${analyzerFolder}BusinessCentral.LinterCop.dll"
-    ],
-    "al.packageCachePath": "./.alpackages/20.0.0.0-us",
+    "al.assemblyProbingPaths": [
+        "./.netpackages",
+        "C:\\windows\\assembly\\"
+    ]
 }

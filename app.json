@@ -1,16 +1,12 @@
 {
-    "id": "10568ce5-b8c4-4270-9845-12644280c675",
-    "name": "AptEDI-FloodApp",
-    "publisher": "Aptean Dev",
-    "version": "1.0.0.0",
-    "dependencies": [
-        {
-          "id": "fae04ec0-301f-11d3-bf4b-00c04f79efbc",
-          "publisher": "Aptean",
-          "name": "Aptean EDI",
-          "version": "0.0.0.0"
-        }
-    ],
-    "application": "0.0.0.0",
-    "platform": "0.0.0.0"
+    "id": "10568ce5-b8c4-4270-9845-12644280c669",
+    "name": "Ext Deployment Service",
+    "publisher": "Akash Upadhyay",
+    "version": "1.0.0.2",
+    "description": "aupadhyay@aptean.com",
+    "platform": "16.0.0.0",
+    "application": "16.0.0.0",
+    "showMyCode": false,
+    "runtime": "7.0",
+    "target": "OnPrem"
 }
